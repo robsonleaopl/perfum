@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 4%;
+}
+
+.main {
+    min-width: 375px;
+    max-width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+img.img-pro {
+    display: inline-block;
+    max-width: 300px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.pro-all {
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    float: right;
+    position: relative;
+    top: 90%;
+    transform: translateX(-13.4%);
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+p.pro-class {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+    color: hsl(212, 21%, 14%);
+    line-height: 1.6em;
+}
+
+.pro-name {
+    font-family: 'Fraunces', serif;
+    padding-bottom: 25px;
+    line-height: 1em;
+    color: hsl(212, 21%, 14%);
+}
+
+.pro-desc {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6em;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    font-weight: 520;
+    padding-bottom: 25px;
+}
+
+.price-new {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    font-weight: 700;
+    display: inline-block;
+    padding-bottom: 25px;
+}
+
+.price-old {
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-weight: 550;
+    display: inline-block;
+    text-decoration: line-through;
+    transform: translateY(-50%);
+    padding-left: 20px;
+}
+
+button p {
+    display: inline-block;
+    transform: translateY(-20%);
+}
+
+button.btn {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    letter-spacing: 0.7px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+button.btn .img-cart {
+    padding-right: 10px;
+}
+
+button.btn:hover {
+    background-color: hsl(158, 36%, 23%);
+    cursor: url(./Images/pointinghand_100160.ico), default;
+}
+
+button.btn:active {
+    font-size: 15px;
+}
+
+
+/*  = -= - =- = -= - =- = -= 
+
+       MEDIA QUERIES
+
+- == - =- = -= - = -= -= - */
+
+
+@media (max-width: 760px) {
+    .main {
+        display: inline-block;
+        margin: auto;
+        min-width: 375px;
+        max-width: 700px;
+        margin-left: 20%;
+    }
+
+    img.img-pro {
+        display: inline-block;
+        max-width: 330px;
+        transform: translateY(-10%);
+        transform: translate(1%, -10%);
+        border-radius: 0;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+
+    .pro-all {
+        float: none;
+        margin-top: -1.4%;
+        width: 330px;
+        padding: 20px;
+        transform: translate(1%, -6.6%);
+        border-radius: 0;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+
+    p.pro-class {
+        padding-bottom: 10px;
+    }
+
+    .pro-name {
+        font-family: 'Fraunces', serif;
+        padding-bottom: 15px;
+        line-height: 1em;
+        color: hsl(212, 21%, 14%);
+    }
+
+    .pro-desc {
+        font-size: 13px;
+        font-weight: 510;
+        padding-bottom: 20px;
+    }
+
+    .price-new {
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .price-old {
+        font-size: 13px;
+    }
+
+    button.btn {
+        font-size: 13px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 650px) {
+    .main {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 560px) {
+   .main {
+    margin-left: 10%;
+   }
+}
+
+@media (max-width: 500px) {
+    .main {
+     margin-left: 7%;
+    }
+ }
