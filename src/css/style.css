@@ -117,7 +117,7 @@ button.btn:active {
 - == - =- = -= - = -= -= - */
 
 
-@media (max-width: 760px) {
+/* @media (max-width: 760px) {
     .main {
         display: inline-block;
         margin: auto;
@@ -196,4 +196,4 @@ button.btn:active {
     .main {
      margin-left: 7%;
     }
- }
+ } */
